@@ -23,7 +23,7 @@ env:
 
 jobs:
   terraform:
-    name: "Apply terradorm changes"
+    name: "Apply terraform changes"
     runs-on: ubuntu_latest
     defaults:
       run:
