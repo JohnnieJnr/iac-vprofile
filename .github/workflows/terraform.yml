@@ -2,15 +2,15 @@ name: "Vprofile IAC"
 on:
   push:
     branches:
-      - main
-      - stage
+      - 'main'
+      - 'stage'
     paths:
-      - terraform/**
+      - 'terraform/**'
   pull_request:
     branches:
-      - main
+      - 'main'
     paths:
-      - terraform/**
+      - 'terraform/**'
 
 env:
   # Credentials from deplyment to aws
